@@ -1,0 +1,49 @@
+body {
+    background-image: url('backgroundnew.jpg');
+}
+.title {
+    text-align: center;
+    font-family: MedievalSharp;
+    font-size: 60px;
+    margin: 50px;
+    text-shadow: black 0.2em 0.2em 0.3em;
+    font-weight: bold;
+}
+.menu {
+    width: 940px;
+    margin: 0 auto;
+    padding: 250px 0;
+}
+.menu_item a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: MedievalSharp;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition: 0.5s all;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+}
+.menu_item a:hover{
+    border-color: darkorange;
+    font-size: 35px;
+    transform: scale(1.2) rotate(10deg);
+    color: darkorange;
+}
+.copyright {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 50px;
+}
